@@ -3,8 +3,6 @@ import { debounce } from "lodash";
 import React, { useCallback, useEffect, useReducer, useRef, useState } from 'react'
 import './Home.css'
 import Cards from './Cards'
-import abcd from 'react'
-
 
 //https://api.tvmaze.com/search/shows?q=friends
 //https://api.tvmaze.com/search/people?q=akon
@@ -112,7 +110,6 @@ function Home() {
 
     return (
         <div >
-
 
             <div className={'mainDiv'}>
                 <h1>TV Maze</h1>
