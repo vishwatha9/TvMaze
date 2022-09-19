@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { debounce } from "lodash";
-import React, { useCallback, useEffect, useReducer, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './Home.css'
 import Cards from './Cards'
 
