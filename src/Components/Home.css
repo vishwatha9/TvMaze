@@ -1,0 +1,50 @@
+.inpBox {
+    width: 700px;
+    border: 0.5px solid black;
+    background-color: white;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.radioButt {
+    color: white;
+}
+
+input[type="radio"] {
+    margin: 0 10px 0 10px;
+}
+
+.errTag {
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+.mainDiv h1 {
+    font-size: 50px;
+    align-self: flex-start;
+    color: white;
+}
+
+.mainDiv h2 {
+    color: white;
+}
+
+.mainDiv {
+
+    background-image: url('../background.jpg');
+    height: 500px;
+    width: 100%;
+
+}
+
+.cardFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
